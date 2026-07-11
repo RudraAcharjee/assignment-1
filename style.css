@@ -62,5 +62,37 @@ span {
 pre {
   margin-top: 30px;
 }
-.banner-section div {
+
+.grid-container {
+  width: 80vw;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 30px;
+  margin: 50px auto;
+}
+
+.gird-img-container img {
+  width: 100%;
+}
+
+.gird-img-container p,
+h3 {
+  padding-left: 15px;
+}
+
+.designation {
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.grid-container div {
+  border-radius: 7px;
+  border: 1px solid #c7c5c5;
+  height: 55vh;
+}
+
+.speakers {
+  margin-top: 35px;
+  text-align: center;
 }
